@@ -1,0 +1,94 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.books"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="23"
+8-->C:\Users\HP\AndroidStudioProjects\Books\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="29" />
+9-->C:\Users\HP\AndroidStudioProjects\Books\app\src\main\AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.INTERNET" />
+11-->C:\Users\HP\AndroidStudioProjects\Books\app\src\main\AndroidManifest.xml:6:5-67
+11-->C:\Users\HP\AndroidStudioProjects\Books\app\src\main\AndroidManifest.xml:6:22-64
+12    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+12-->C:\Users\HP\AndroidStudioProjects\Books\app\src\main\AndroidManifest.xml:7:5-79
+12-->C:\Users\HP\AndroidStudioProjects\Books\app\src\main\AndroidManifest.xml:7:22-76
+13
+14    <application
+14-->C:\Users\HP\AndroidStudioProjects\Books\app\src\main\AndroidManifest.xml:9:5-28:19
+15        android:allowBackup="true"
+15-->C:\Users\HP\AndroidStudioProjects\Books\app\src\main\AndroidManifest.xml:10:9-35
+16        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+16-->[androidx.core:core:1.1.0] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\df2ac4fe6b88cbdd1c862077d2fdf1ec\core-1.1.0\AndroidManifest.xml:24:18-86
+17        android:debuggable="true"
+18        android:icon="@mipmap/ic_launcher"
+18-->C:\Users\HP\AndroidStudioProjects\Books\app\src\main\AndroidManifest.xml:11:9-43
+19        android:label="@string/app_name"
+19-->C:\Users\HP\AndroidStudioProjects\Books\app\src\main\AndroidManifest.xml:12:9-41
+20        android:roundIcon="@mipmap/ic_launcher_round"
+20-->C:\Users\HP\AndroidStudioProjects\Books\app\src\main\AndroidManifest.xml:13:9-54
+21        android:supportsRtl="true"
+21-->C:\Users\HP\AndroidStudioProjects\Books\app\src\main\AndroidManifest.xml:14:9-35
+22        android:testOnly="true"
+23        android:theme="@style/AppTheme"
+23-->C:\Users\HP\AndroidStudioProjects\Books\app\src\main\AndroidManifest.xml:15:9-40
+24        android:usesCleartextTraffic="true" >
+24-->C:\Users\HP\AndroidStudioProjects\Books\app\src\main\AndroidManifest.xml:16:9-44
+25        <activity
+25-->C:\Users\HP\AndroidStudioProjects\Books\app\src\main\AndroidManifest.xml:18:9-19:61
+26            android:name="com.example.books.ui.BookDetailActivity"
+26-->C:\Users\HP\AndroidStudioProjects\Books\app\src\main\AndroidManifest.xml:18:19-56
+27            android:label="@string/detail_title"
+27-->C:\Users\HP\AndroidStudioProjects\Books\app\src\main\AndroidManifest.xml:19:13-49
+28            android:parentActivityName="com.example.books.ui.MainActivity" />
+28-->C:\Users\HP\AndroidStudioProjects\Books\app\src\main\AndroidManifest.xml:18:57-102
+29        <activity
+29-->C:\Users\HP\AndroidStudioProjects\Books\app\src\main\AndroidManifest.xml:20:9-27:20
+30            android:name="com.example.books.ui.MainActivity"
+30-->C:\Users\HP\AndroidStudioProjects\Books\app\src\main\AndroidManifest.xml:20:19-50
+31            android:launchMode="singleTop" >
+31-->C:\Users\HP\AndroidStudioProjects\Books\app\src\main\AndroidManifest.xml:21:13-43
+32            <intent-filter>
+32-->C:\Users\HP\AndroidStudioProjects\Books\app\src\main\AndroidManifest.xml:22:13-26:29
+33                <action android:name="android.intent.action.MAIN" />
+33-->C:\Users\HP\AndroidStudioProjects\Books\app\src\main\AndroidManifest.xml:23:17-69
+33-->C:\Users\HP\AndroidStudioProjects\Books\app\src\main\AndroidManifest.xml:23:25-66
+34
+35                <category android:name="android.intent.category.LAUNCHER" />
+35-->C:\Users\HP\AndroidStudioProjects\Books\app\src\main\AndroidManifest.xml:25:17-77
+35-->C:\Users\HP\AndroidStudioProjects\Books\app\src\main\AndroidManifest.xml:25:27-74
+36            </intent-filter>
+37        </activity>
+38
+39        <provider
+39-->[com.squareup.picasso:picasso:2.71828] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\3713ed667eecd929d88a851ef88aa0dd\jetified-picasso-2.71828\AndroidManifest.xml:8:9-11:40
+40            android:name="com.squareup.picasso.PicassoProvider"
+40-->[com.squareup.picasso:picasso:2.71828] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\3713ed667eecd929d88a851ef88aa0dd\jetified-picasso-2.71828\AndroidManifest.xml:9:13-64
+41            android:authorities="com.example.books.com.squareup.picasso"
+41-->[com.squareup.picasso:picasso:2.71828] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\3713ed667eecd929d88a851ef88aa0dd\jetified-picasso-2.71828\AndroidManifest.xml:10:13-72
+42            android:exported="false" />
+42-->[com.squareup.picasso:picasso:2.71828] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\3713ed667eecd929d88a851ef88aa0dd\jetified-picasso-2.71828\AndroidManifest.xml:11:13-37
+43
+44        <service
+44-->[androidx.room:room-runtime:2.2.0] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\c8f1cea2d50c581a07731e7b457bbb11\room-runtime-2.2.0\AndroidManifest.xml:25:9-27:40
+45            android:name="androidx.room.MultiInstanceInvalidationService"
+45-->[androidx.room:room-runtime:2.2.0] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\c8f1cea2d50c581a07731e7b457bbb11\room-runtime-2.2.0\AndroidManifest.xml:26:13-74
+46            android:exported="false" />
+46-->[androidx.room:room-runtime:2.2.0] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\c8f1cea2d50c581a07731e7b457bbb11\room-runtime-2.2.0\AndroidManifest.xml:27:13-37
+47
+48        <provider
+48-->[androidx.lifecycle:lifecycle-process:2.2.0] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\a6511e21a7fbe5087afe20d2c7ae1b69\lifecycle-process-2.2.0\AndroidManifest.xml:25:9-29:43
+49            android:name="androidx.lifecycle.ProcessLifecycleOwnerInitializer"
+49-->[androidx.lifecycle:lifecycle-process:2.2.0] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\a6511e21a7fbe5087afe20d2c7ae1b69\lifecycle-process-2.2.0\AndroidManifest.xml:26:13-79
+50            android:authorities="com.example.books.lifecycle-process"
+50-->[androidx.lifecycle:lifecycle-process:2.2.0] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\a6511e21a7fbe5087afe20d2c7ae1b69\lifecycle-process-2.2.0\AndroidManifest.xml:27:13-69
+51            android:exported="false"
+51-->[androidx.lifecycle:lifecycle-process:2.2.0] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\a6511e21a7fbe5087afe20d2c7ae1b69\lifecycle-process-2.2.0\AndroidManifest.xml:28:13-37
+52            android:multiprocess="true" />
+52-->[androidx.lifecycle:lifecycle-process:2.2.0] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\a6511e21a7fbe5087afe20d2c7ae1b69\lifecycle-process-2.2.0\AndroidManifest.xml:29:13-40
+53    </application>
+54
+55</manifest>
