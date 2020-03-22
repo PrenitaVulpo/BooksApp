@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Gradle: it.skrape:skrapeit-core:1.0.0-alpha6@jar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/it.skrape/skrapeit-core/1.0.0-alpha6/357fc46bb11eb4c52891c68cf8270b8a4a92de21/skrapeit-core-1.0.0-alpha6.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/it.skrape/skrapeit-core/1.0.0-alpha6/9a01d2d4e9de64070526bd033fcf7f2d2595446e/skrapeit-core-1.0.0-alpha6-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/it.skrape/skrapeit-core/1.0.0-alpha6/d4b65d81bb7f88e27fc73a20fd0f0b8044b3789f/skrapeit-core-1.0.0-alpha6-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>
