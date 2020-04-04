@@ -1,6 +1,5 @@
 package com.example.books.ui.fragments
 
-import android.content.Intent
 import android.os.Bundle
 import android.view.LayoutInflater
 import android.view.View
@@ -17,7 +16,12 @@ import com.example.books.ui.adapter.BookAdapter
 import com.example.books.ui.viewmodel.BookListViewModel
 import kotlinx.android.synthetic.main.fragment_book_list.*
 
-class BookListFragment: Fragment(){
+class BookListFragment( s: String
+    //bundle: Bundle?
+) : Fragment(){
+    val book: String? = s
+    //val book: String? = bundle?.getString("busca")
+
 
     private val viewModel: BookListViewModel by lazy {
         ViewModelProvider(this).get(BookListViewModel::class.java)
@@ -58,7 +62,7 @@ class BookListFragment: Fragment(){
                 }
             }
         })
-        viewModel.loadBooks()
+        viewModel.loadBooks(book)
     }
     private fun onVolumeClick(volume: Volume){
         BookDetailActivity.openWithVolume(requireContext(),volume)

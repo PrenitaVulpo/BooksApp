@@ -15,7 +15,7 @@ object HTTPBook {
         .readTimeout(5, TimeUnit.SECONDS)
         .connectTimeout(10, TimeUnit.SECONDS)
         .build()
-    fun searchBook(q: String): SearchResult?{
+    fun searchBook(q: String?): SearchResult?{
 
         val request = Request.Builder()
             .url(String.format(BOOK_JSON_URL, q))

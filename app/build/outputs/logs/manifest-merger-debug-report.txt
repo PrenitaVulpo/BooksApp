@@ -1,9 +1,10 @@
 -- Merging decision tree log ---
 manifest
-ADDED from C:\Users\HP\AndroidStudioProjects\Books\app\src\main\AndroidManifest.xml:2:1-30:12
-INJECTED from C:\Users\HP\AndroidStudioProjects\Books\app\src\main\AndroidManifest.xml:2:1-30:12
-INJECTED from C:\Users\HP\AndroidStudioProjects\Books\app\src\main\AndroidManifest.xml:2:1-30:12
-INJECTED from C:\Users\HP\AndroidStudioProjects\Books\app\src\main\AndroidManifest.xml:2:1-30:12
+ADDED from C:\Users\HP\AndroidStudioProjects\Books\app\src\main\AndroidManifest.xml:2:1-47:12
+INJECTED from C:\Users\HP\AndroidStudioProjects\Books\app\src\main\AndroidManifest.xml:2:1-47:12
+INJECTED from C:\Users\HP\AndroidStudioProjects\Books\app\src\main\AndroidManifest.xml:2:1-47:12
+INJECTED from C:\Users\HP\AndroidStudioProjects\Books\app\src\main\AndroidManifest.xml:2:1-47:12
+MERGED from [com.daandtu:android-web-scraper:1.0.1] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\7911fb9ee438d101bada7eaf4b07473e\android-web-scraper-1.0.1\AndroidManifest.xml:2:1-32:12
 MERGED from [com.google.android.material:material:1.1.0] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\974aae035635aabf77054b6e30facd7b\material-1.1.0\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.appcompat:appcompat:1.1.0] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\93bc303e0edf41378a70a682ebb74605\appcompat-1.1.0\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.core:core-ktx:1.0.2] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\66e2865556a6c9354acff342343505fa\core-ktx-1.0.2\AndroidManifest.xml:2:1-7:12
@@ -46,27 +47,29 @@ MERGED from [androidx.sqlite:sqlite-framework:2.0.1] C:\Users\HP\.gradle\caches\
 MERGED from [androidx.sqlite:sqlite:2.0.1] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\7034d30b19b127a19660862334887356\sqlite-2.0.1\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\12e3091321384669e8f586318ef1d685\cursoradapter-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\225c82d8c731985fb415caed199cb7eb\interpolator-1.0.0\AndroidManifest.xml:17:1-22:12
-INJECTED from C:\Users\HP\AndroidStudioProjects\Books\app\src\main\AndroidManifest.xml:2:1-30:12
-INJECTED from C:\Users\HP\AndroidStudioProjects\Books\app\src\main\AndroidManifest.xml:2:1-30:12
-INJECTED from C:\Users\HP\AndroidStudioProjects\Books\app\src\main\AndroidManifest.xml:2:1-30:12
+INJECTED from C:\Users\HP\AndroidStudioProjects\Books\app\src\main\AndroidManifest.xml:2:1-47:12
+INJECTED from C:\Users\HP\AndroidStudioProjects\Books\app\src\main\AndroidManifest.xml:2:1-47:12
+INJECTED from C:\Users\HP\AndroidStudioProjects\Books\app\src\main\AndroidManifest.xml:2:1-47:12
 	package
 		ADDED from C:\Users\HP\AndroidStudioProjects\Books\app\src\main\AndroidManifest.xml:4:5-32
 		INJECTED from C:\Users\HP\AndroidStudioProjects\Books\app\src\main\AndroidManifest.xml
 		INJECTED from C:\Users\HP\AndroidStudioProjects\Books\app\src\main\AndroidManifest.xml
 	android:versionName
 		INJECTED from C:\Users\HP\AndroidStudioProjects\Books\app\src\main\AndroidManifest.xml
-		ADDED from C:\Users\HP\AndroidStudioProjects\Books\app\src\main\AndroidManifest.xml:2:1-30:12
+		ADDED from C:\Users\HP\AndroidStudioProjects\Books\app\src\main\AndroidManifest.xml:2:1-47:12
 		INJECTED from C:\Users\HP\AndroidStudioProjects\Books\app\src\main\AndroidManifest.xml
 	xmlns:tools
 		ADDED from C:\Users\HP\AndroidStudioProjects\Books\app\src\main\AndroidManifest.xml:3:5-51
 	android:versionCode
 		INJECTED from C:\Users\HP\AndroidStudioProjects\Books\app\src\main\AndroidManifest.xml
-		ADDED from C:\Users\HP\AndroidStudioProjects\Books\app\src\main\AndroidManifest.xml:2:1-30:12
+		ADDED from C:\Users\HP\AndroidStudioProjects\Books\app\src\main\AndroidManifest.xml:2:1-47:12
 		INJECTED from C:\Users\HP\AndroidStudioProjects\Books\app\src\main\AndroidManifest.xml
 	xmlns:android
 		ADDED from C:\Users\HP\AndroidStudioProjects\Books\app\src\main\AndroidManifest.xml:2:11-69
 uses-permission#android.permission.INTERNET
 ADDED from C:\Users\HP\AndroidStudioProjects\Books\app\src\main\AndroidManifest.xml:6:5-67
+MERGED from [com.daandtu:android-web-scraper:1.0.1] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\7911fb9ee438d101bada7eaf4b07473e\android-web-scraper-1.0.1\AndroidManifest.xml:11:5-67
+MERGED from [com.daandtu:android-web-scraper:1.0.1] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\7911fb9ee438d101bada7eaf4b07473e\android-web-scraper-1.0.1\AndroidManifest.xml:11:5-67
 	android:name
 		ADDED from C:\Users\HP\AndroidStudioProjects\Books\app\src\main\AndroidManifest.xml:6:22-64
 uses-permission#android.permission.ACCESS_NETWORK_STATE
@@ -74,7 +77,9 @@ ADDED from C:\Users\HP\AndroidStudioProjects\Books\app\src\main\AndroidManifest.
 	android:name
 		ADDED from C:\Users\HP\AndroidStudioProjects\Books\app\src\main\AndroidManifest.xml:7:22-76
 application
-ADDED from C:\Users\HP\AndroidStudioProjects\Books\app\src\main\AndroidManifest.xml:9:5-28:19
+ADDED from C:\Users\HP\AndroidStudioProjects\Books\app\src\main\AndroidManifest.xml:9:5-45:19
+MERGED from [com.daandtu:android-web-scraper:1.0.1] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\7911fb9ee438d101bada7eaf4b07473e\android-web-scraper-1.0.1\AndroidManifest.xml:13:5-30:19
+MERGED from [com.daandtu:android-web-scraper:1.0.1] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\7911fb9ee438d101bada7eaf4b07473e\android-web-scraper-1.0.1\AndroidManifest.xml:13:5-30:19
 MERGED from [com.google.android.material:material:1.1.0] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\974aae035635aabf77054b6e30facd7b\material-1.1.0\AndroidManifest.xml:22:5-20
 MERGED from [com.google.android.material:material:1.1.0] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\974aae035635aabf77054b6e30facd7b\material-1.1.0\AndroidManifest.xml:22:5-20
 MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\140e197d83343f156dc84b9dfd575292\constraintlayout-1.1.3\AndroidManifest.xml:9:5-20
@@ -109,20 +114,14 @@ MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] C:\Users\HP
 		ADDED from C:\Users\HP\AndroidStudioProjects\Books\app\src\main\AndroidManifest.xml:15:9-40
 	android:usesCleartextTraffic
 		ADDED from C:\Users\HP\AndroidStudioProjects\Books\app\src\main\AndroidManifest.xml:16:9-44
-activity#com.example.books.ui.BookDetailActivity
-ADDED from C:\Users\HP\AndroidStudioProjects\Books\app\src\main\AndroidManifest.xml:18:9-19:61
-	android:parentActivityName
-		ADDED from C:\Users\HP\AndroidStudioProjects\Books\app\src\main\AndroidManifest.xml:18:57-102
+activity#com.example.books.ui.MainSearchActivity
+ADDED from C:\Users\HP\AndroidStudioProjects\Books\app\src\main\AndroidManifest.xml:18:9-27:20
 	android:label
-		ADDED from C:\Users\HP\AndroidStudioProjects\Books\app\src\main\AndroidManifest.xml:19:13-49
+		ADDED from C:\Users\HP\AndroidStudioProjects\Books\app\src\main\AndroidManifest.xml:20:13-63
+	android:theme
+		ADDED from C:\Users\HP\AndroidStudioProjects\Books\app\src\main\AndroidManifest.xml:21:13-56
 	android:name
-		ADDED from C:\Users\HP\AndroidStudioProjects\Books\app\src\main\AndroidManifest.xml:18:19-56
-activity#com.example.books.ui.MainActivity
-ADDED from C:\Users\HP\AndroidStudioProjects\Books\app\src\main\AndroidManifest.xml:20:9-27:20
-	android:launchMode
-		ADDED from C:\Users\HP\AndroidStudioProjects\Books\app\src\main\AndroidManifest.xml:21:13-43
-	android:name
-		ADDED from C:\Users\HP\AndroidStudioProjects\Books\app\src\main\AndroidManifest.xml:20:19-50
+		ADDED from C:\Users\HP\AndroidStudioProjects\Books\app\src\main\AndroidManifest.xml:19:13-50
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
 ADDED from C:\Users\HP\AndroidStudioProjects\Books\app\src\main\AndroidManifest.xml:22:13-26:29
 action#android.intent.action.MAIN
@@ -133,10 +132,32 @@ category#android.intent.category.LAUNCHER
 ADDED from C:\Users\HP\AndroidStudioProjects\Books\app\src\main\AndroidManifest.xml:25:17-77
 	android:name
 		ADDED from C:\Users\HP\AndroidStudioProjects\Books\app\src\main\AndroidManifest.xml:25:27-74
+activity#com.example.books.ui.BookDetailActivity
+ADDED from C:\Users\HP\AndroidStudioProjects\Books\app\src\main\AndroidManifest.xml:28:9-31:61
+	android:parentActivityName
+		ADDED from C:\Users\HP\AndroidStudioProjects\Books\app\src\main\AndroidManifest.xml:31:13-58
+	android:label
+		ADDED from C:\Users\HP\AndroidStudioProjects\Books\app\src\main\AndroidManifest.xml:30:13-49
+	android:name
+		ADDED from C:\Users\HP\AndroidStudioProjects\Books\app\src\main\AndroidManifest.xml:29:13-50
+activity#com.example.books.ui.MainActivity
+ADDED from C:\Users\HP\AndroidStudioProjects\Books\app\src\main\AndroidManifest.xml:32:9-40:20
+	android:launchMode
+		ADDED from C:\Users\HP\AndroidStudioProjects\Books\app\src\main\AndroidManifest.xml:34:13-43
+	android:name
+		ADDED from C:\Users\HP\AndroidStudioProjects\Books\app\src\main\AndroidManifest.xml:33:13-44
+activity#com.example.books.ui.RetailerActivity
+ADDED from C:\Users\HP\AndroidStudioProjects\Books\app\src\main\AndroidManifest.xml:41:9-44:20
+	android:launchMode
+		ADDED from C:\Users\HP\AndroidStudioProjects\Books\app\src\main\AndroidManifest.xml:43:13-43
+	android:name
+		ADDED from C:\Users\HP\AndroidStudioProjects\Books\app\src\main\AndroidManifest.xml:42:13-48
 uses-sdk
 INJECTED from C:\Users\HP\AndroidStudioProjects\Books\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from C:\Users\HP\AndroidStudioProjects\Books\app\src\main\AndroidManifest.xml
 INJECTED from C:\Users\HP\AndroidStudioProjects\Books\app\src\main\AndroidManifest.xml
+MERGED from [com.daandtu:android-web-scraper:1.0.1] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\7911fb9ee438d101bada7eaf4b07473e\android-web-scraper-1.0.1\AndroidManifest.xml:7:5-9:41
+MERGED from [com.daandtu:android-web-scraper:1.0.1] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\7911fb9ee438d101bada7eaf4b07473e\android-web-scraper-1.0.1\AndroidManifest.xml:7:5-9:41
 MERGED from [com.google.android.material:material:1.1.0] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\974aae035635aabf77054b6e30facd7b\material-1.1.0\AndroidManifest.xml:20:5-44
 MERGED from [com.google.android.material:material:1.1.0] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\974aae035635aabf77054b6e30facd7b\material-1.1.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.appcompat:appcompat:1.1.0] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\93bc303e0edf41378a70a682ebb74605\appcompat-1.1.0\AndroidManifest.xml:20:5-22:41
@@ -231,6 +252,14 @@ INJECTED from C:\Users\HP\AndroidStudioProjects\Books\app\src\main\AndroidManife
 		INJECTED from C:\Users\HP\AndroidStudioProjects\Books\app\src\main\AndroidManifest.xml
 		ADDED from C:\Users\HP\AndroidStudioProjects\Books\app\src\main\AndroidManifest.xml
 		INJECTED from C:\Users\HP\AndroidStudioProjects\Books\app\src\main\AndroidManifest.xml
+activity#com.daandtu.webscraper.MainTest
+ADDED from [com.daandtu:android-web-scraper:1.0.1] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\7911fb9ee438d101bada7eaf4b07473e\android-web-scraper-1.0.1\AndroidManifest.xml:20:9-29:20
+	android:label
+		ADDED from [com.daandtu:android-web-scraper:1.0.1] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\7911fb9ee438d101bada7eaf4b07473e\android-web-scraper-1.0.1\AndroidManifest.xml:22:13-45
+	android:theme
+		ADDED from [com.daandtu:android-web-scraper:1.0.1] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\7911fb9ee438d101bada7eaf4b07473e\android-web-scraper-1.0.1\AndroidManifest.xml:23:13-44
+	android:name
+		ADDED from [com.daandtu:android-web-scraper:1.0.1] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\7911fb9ee438d101bada7eaf4b07473e\android-web-scraper-1.0.1\AndroidManifest.xml:21:13-59
 provider#com.squareup.picasso.PicassoProvider
 ADDED from [com.squareup.picasso:picasso:2.71828] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\3713ed667eecd929d88a851ef88aa0dd\jetified-picasso-2.71828\AndroidManifest.xml:8:9-11:40
 	android:authorities

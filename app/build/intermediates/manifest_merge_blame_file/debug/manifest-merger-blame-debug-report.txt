@@ -18,7 +18,7 @@
 12-->C:\Users\HP\AndroidStudioProjects\Books\app\src\main\AndroidManifest.xml:7:22-76
 13
 14    <application
-14-->C:\Users\HP\AndroidStudioProjects\Books\app\src\main\AndroidManifest.xml:9:5-28:19
+14-->C:\Users\HP\AndroidStudioProjects\Books\app\src\main\AndroidManifest.xml:9:5-45:19
 15        android:allowBackup="true"
 15-->C:\Users\HP\AndroidStudioProjects\Books\app\src\main\AndroidManifest.xml:10:9-35
 16        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
@@ -38,57 +38,102 @@
 24        android:usesCleartextTraffic="true" >
 24-->C:\Users\HP\AndroidStudioProjects\Books\app\src\main\AndroidManifest.xml:16:9-44
 25        <activity
-25-->C:\Users\HP\AndroidStudioProjects\Books\app\src\main\AndroidManifest.xml:18:9-19:61
-26            android:name="com.example.books.ui.BookDetailActivity"
-26-->C:\Users\HP\AndroidStudioProjects\Books\app\src\main\AndroidManifest.xml:18:19-56
-27            android:label="@string/detail_title"
-27-->C:\Users\HP\AndroidStudioProjects\Books\app\src\main\AndroidManifest.xml:19:13-49
-28            android:parentActivityName="com.example.books.ui.MainActivity" />
-28-->C:\Users\HP\AndroidStudioProjects\Books\app\src\main\AndroidManifest.xml:18:57-102
-29        <activity
-29-->C:\Users\HP\AndroidStudioProjects\Books\app\src\main\AndroidManifest.xml:20:9-27:20
-30            android:name="com.example.books.ui.MainActivity"
-30-->C:\Users\HP\AndroidStudioProjects\Books\app\src\main\AndroidManifest.xml:20:19-50
-31            android:launchMode="singleTop" >
-31-->C:\Users\HP\AndroidStudioProjects\Books\app\src\main\AndroidManifest.xml:21:13-43
-32            <intent-filter>
-32-->C:\Users\HP\AndroidStudioProjects\Books\app\src\main\AndroidManifest.xml:22:13-26:29
-33                <action android:name="android.intent.action.MAIN" />
-33-->C:\Users\HP\AndroidStudioProjects\Books\app\src\main\AndroidManifest.xml:23:17-69
-33-->C:\Users\HP\AndroidStudioProjects\Books\app\src\main\AndroidManifest.xml:23:25-66
-34
-35                <category android:name="android.intent.category.LAUNCHER" />
-35-->C:\Users\HP\AndroidStudioProjects\Books\app\src\main\AndroidManifest.xml:25:17-77
-35-->C:\Users\HP\AndroidStudioProjects\Books\app\src\main\AndroidManifest.xml:25:27-74
-36            </intent-filter>
-37        </activity>
-38
-39        <provider
-39-->[com.squareup.picasso:picasso:2.71828] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\3713ed667eecd929d88a851ef88aa0dd\jetified-picasso-2.71828\AndroidManifest.xml:8:9-11:40
-40            android:name="com.squareup.picasso.PicassoProvider"
-40-->[com.squareup.picasso:picasso:2.71828] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\3713ed667eecd929d88a851ef88aa0dd\jetified-picasso-2.71828\AndroidManifest.xml:9:13-64
-41            android:authorities="com.example.books.com.squareup.picasso"
-41-->[com.squareup.picasso:picasso:2.71828] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\3713ed667eecd929d88a851ef88aa0dd\jetified-picasso-2.71828\AndroidManifest.xml:10:13-72
-42            android:exported="false" />
-42-->[com.squareup.picasso:picasso:2.71828] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\3713ed667eecd929d88a851ef88aa0dd\jetified-picasso-2.71828\AndroidManifest.xml:11:13-37
-43
-44        <service
-44-->[androidx.room:room-runtime:2.2.0] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\c8f1cea2d50c581a07731e7b457bbb11\room-runtime-2.2.0\AndroidManifest.xml:25:9-27:40
-45            android:name="androidx.room.MultiInstanceInvalidationService"
-45-->[androidx.room:room-runtime:2.2.0] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\c8f1cea2d50c581a07731e7b457bbb11\room-runtime-2.2.0\AndroidManifest.xml:26:13-74
-46            android:exported="false" />
-46-->[androidx.room:room-runtime:2.2.0] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\c8f1cea2d50c581a07731e7b457bbb11\room-runtime-2.2.0\AndroidManifest.xml:27:13-37
-47
-48        <provider
-48-->[androidx.lifecycle:lifecycle-process:2.2.0] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\a6511e21a7fbe5087afe20d2c7ae1b69\lifecycle-process-2.2.0\AndroidManifest.xml:25:9-29:43
-49            android:name="androidx.lifecycle.ProcessLifecycleOwnerInitializer"
-49-->[androidx.lifecycle:lifecycle-process:2.2.0] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\a6511e21a7fbe5087afe20d2c7ae1b69\lifecycle-process-2.2.0\AndroidManifest.xml:26:13-79
-50            android:authorities="com.example.books.lifecycle-process"
-50-->[androidx.lifecycle:lifecycle-process:2.2.0] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\a6511e21a7fbe5087afe20d2c7ae1b69\lifecycle-process-2.2.0\AndroidManifest.xml:27:13-69
-51            android:exported="false"
-51-->[androidx.lifecycle:lifecycle-process:2.2.0] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\a6511e21a7fbe5087afe20d2c7ae1b69\lifecycle-process-2.2.0\AndroidManifest.xml:28:13-37
-52            android:multiprocess="true" />
-52-->[androidx.lifecycle:lifecycle-process:2.2.0] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\a6511e21a7fbe5087afe20d2c7ae1b69\lifecycle-process-2.2.0\AndroidManifest.xml:29:13-40
-53    </application>
-54
-55</manifest>
+25-->C:\Users\HP\AndroidStudioProjects\Books\app\src\main\AndroidManifest.xml:18:9-27:20
+26            android:name="com.example.books.ui.MainSearchActivity"
+26-->C:\Users\HP\AndroidStudioProjects\Books\app\src\main\AndroidManifest.xml:19:13-50
+27            android:label="@string/title_activity_main_search"
+27-->C:\Users\HP\AndroidStudioProjects\Books\app\src\main\AndroidManifest.xml:20:13-63
+28            android:theme="@style/AppTheme.NoActionBar" >
+28-->C:\Users\HP\AndroidStudioProjects\Books\app\src\main\AndroidManifest.xml:21:13-56
+29            <intent-filter>
+29-->C:\Users\HP\AndroidStudioProjects\Books\app\src\main\AndroidManifest.xml:22:13-26:29
+30                <action android:name="android.intent.action.MAIN" />
+30-->C:\Users\HP\AndroidStudioProjects\Books\app\src\main\AndroidManifest.xml:23:17-69
+30-->C:\Users\HP\AndroidStudioProjects\Books\app\src\main\AndroidManifest.xml:23:25-66
+31
+32                <category android:name="android.intent.category.LAUNCHER" />
+32-->C:\Users\HP\AndroidStudioProjects\Books\app\src\main\AndroidManifest.xml:25:17-77
+32-->C:\Users\HP\AndroidStudioProjects\Books\app\src\main\AndroidManifest.xml:25:27-74
+33            </intent-filter>
+34        </activity>
+35        <activity
+35-->C:\Users\HP\AndroidStudioProjects\Books\app\src\main\AndroidManifest.xml:28:9-31:61
+36            android:name="com.example.books.ui.BookDetailActivity"
+36-->C:\Users\HP\AndroidStudioProjects\Books\app\src\main\AndroidManifest.xml:29:13-50
+37            android:label="@string/detail_title"
+37-->C:\Users\HP\AndroidStudioProjects\Books\app\src\main\AndroidManifest.xml:30:13-49
+38            android:parentActivityName="com.example.books.ui.MainActivity" />
+38-->C:\Users\HP\AndroidStudioProjects\Books\app\src\main\AndroidManifest.xml:31:13-58
+39        <activity
+39-->C:\Users\HP\AndroidStudioProjects\Books\app\src\main\AndroidManifest.xml:32:9-40:20
+40            android:name="com.example.books.ui.MainActivity"
+40-->C:\Users\HP\AndroidStudioProjects\Books\app\src\main\AndroidManifest.xml:33:13-44
+41            android:launchMode="singleTop" >
+41-->C:\Users\HP\AndroidStudioProjects\Books\app\src\main\AndroidManifest.xml:34:13-43
+42            <intent-filter>
+42-->C:\Users\HP\AndroidStudioProjects\Books\app\src\main\AndroidManifest.xml:22:13-26:29
+43                <action android:name="android.intent.action.MAIN" />
+43-->C:\Users\HP\AndroidStudioProjects\Books\app\src\main\AndroidManifest.xml:23:17-69
+43-->C:\Users\HP\AndroidStudioProjects\Books\app\src\main\AndroidManifest.xml:23:25-66
+44
+45                <category android:name="android.intent.category.LAUNCHER" />
+45-->C:\Users\HP\AndroidStudioProjects\Books\app\src\main\AndroidManifest.xml:25:17-77
+45-->C:\Users\HP\AndroidStudioProjects\Books\app\src\main\AndroidManifest.xml:25:27-74
+46            </intent-filter>
+47        </activity>
+48        <activity
+48-->C:\Users\HP\AndroidStudioProjects\Books\app\src\main\AndroidManifest.xml:41:9-44:20
+49            android:name="com.example.books.ui.RetailerActivity"
+49-->C:\Users\HP\AndroidStudioProjects\Books\app\src\main\AndroidManifest.xml:42:13-48
+50            android:launchMode="singleTop" >
+50-->C:\Users\HP\AndroidStudioProjects\Books\app\src\main\AndroidManifest.xml:43:13-43
+51        </activity>
+52        <activity
+52-->[com.daandtu:android-web-scraper:1.0.1] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\7911fb9ee438d101bada7eaf4b07473e\android-web-scraper-1.0.1\AndroidManifest.xml:20:9-29:20
+53            android:name="com.daandtu.webscraper.MainTest"
+53-->[com.daandtu:android-web-scraper:1.0.1] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\7911fb9ee438d101bada7eaf4b07473e\android-web-scraper-1.0.1\AndroidManifest.xml:21:13-59
+54            android:label="@string/app_name"
+54-->[com.daandtu:android-web-scraper:1.0.1] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\7911fb9ee438d101bada7eaf4b07473e\android-web-scraper-1.0.1\AndroidManifest.xml:22:13-45
+55            android:theme="@style/AppTheme" >
+55-->[com.daandtu:android-web-scraper:1.0.1] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\7911fb9ee438d101bada7eaf4b07473e\android-web-scraper-1.0.1\AndroidManifest.xml:23:13-44
+56            <intent-filter>
+56-->C:\Users\HP\AndroidStudioProjects\Books\app\src\main\AndroidManifest.xml:22:13-26:29
+57                <action android:name="android.intent.action.MAIN" />
+57-->C:\Users\HP\AndroidStudioProjects\Books\app\src\main\AndroidManifest.xml:23:17-69
+57-->C:\Users\HP\AndroidStudioProjects\Books\app\src\main\AndroidManifest.xml:23:25-66
+58
+59                <category android:name="android.intent.category.LAUNCHER" />
+59-->C:\Users\HP\AndroidStudioProjects\Books\app\src\main\AndroidManifest.xml:25:17-77
+59-->C:\Users\HP\AndroidStudioProjects\Books\app\src\main\AndroidManifest.xml:25:27-74
+60            </intent-filter>
+61        </activity>
+62
+63        <provider
+63-->[com.squareup.picasso:picasso:2.71828] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\3713ed667eecd929d88a851ef88aa0dd\jetified-picasso-2.71828\AndroidManifest.xml:8:9-11:40
+64            android:name="com.squareup.picasso.PicassoProvider"
+64-->[com.squareup.picasso:picasso:2.71828] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\3713ed667eecd929d88a851ef88aa0dd\jetified-picasso-2.71828\AndroidManifest.xml:9:13-64
+65            android:authorities="com.example.books.com.squareup.picasso"
+65-->[com.squareup.picasso:picasso:2.71828] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\3713ed667eecd929d88a851ef88aa0dd\jetified-picasso-2.71828\AndroidManifest.xml:10:13-72
+66            android:exported="false" />
+66-->[com.squareup.picasso:picasso:2.71828] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\3713ed667eecd929d88a851ef88aa0dd\jetified-picasso-2.71828\AndroidManifest.xml:11:13-37
+67
+68        <service
+68-->[androidx.room:room-runtime:2.2.0] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\c8f1cea2d50c581a07731e7b457bbb11\room-runtime-2.2.0\AndroidManifest.xml:25:9-27:40
+69            android:name="androidx.room.MultiInstanceInvalidationService"
+69-->[androidx.room:room-runtime:2.2.0] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\c8f1cea2d50c581a07731e7b457bbb11\room-runtime-2.2.0\AndroidManifest.xml:26:13-74
+70            android:exported="false" />
+70-->[androidx.room:room-runtime:2.2.0] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\c8f1cea2d50c581a07731e7b457bbb11\room-runtime-2.2.0\AndroidManifest.xml:27:13-37
+71
+72        <provider
+72-->[androidx.lifecycle:lifecycle-process:2.2.0] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\a6511e21a7fbe5087afe20d2c7ae1b69\lifecycle-process-2.2.0\AndroidManifest.xml:25:9-29:43
+73            android:name="androidx.lifecycle.ProcessLifecycleOwnerInitializer"
+73-->[androidx.lifecycle:lifecycle-process:2.2.0] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\a6511e21a7fbe5087afe20d2c7ae1b69\lifecycle-process-2.2.0\AndroidManifest.xml:26:13-79
+74            android:authorities="com.example.books.lifecycle-process"
+74-->[androidx.lifecycle:lifecycle-process:2.2.0] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\a6511e21a7fbe5087afe20d2c7ae1b69\lifecycle-process-2.2.0\AndroidManifest.xml:27:13-69
+75            android:exported="false"
+75-->[androidx.lifecycle:lifecycle-process:2.2.0] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\a6511e21a7fbe5087afe20d2c7ae1b69\lifecycle-process-2.2.0\AndroidManifest.xml:28:13-37
+76            android:multiprocess="true" />
+76-->[androidx.lifecycle:lifecycle-process:2.2.0] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\a6511e21a7fbe5087afe20d2c7ae1b69\lifecycle-process-2.2.0\AndroidManifest.xml:29:13-40
+77    </application>
+78
+79</manifest>

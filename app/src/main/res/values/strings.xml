@@ -5,4 +5,24 @@
     <string name="error_load_book">Erro ao carregar o livro</string>
     <string name="tab_books">Livros</string>
     <string name="tab_favorites">Favoritos</string>
+    <string name="search_button">Buscar</string>
+    <string name="book_to_search">Informe uma palavra-chave do título do livro desejado abaixo:</string>
+    <string name="title_activity_main_search">MainSearchActivity</string>
+    <string name="botao_revendedores">Onde comprar?</string>
+    <string name="biblioteca">Ir à Minha Biblioteca</string>
+    <string name="previa">Ver Amostra</string>
+    <string-array name="example">
+        <item>Novatec</item>
+        <item>Amazon</item>
+        <item>Estante Virtual</item>
+        <item>Nobel</item>
+        <item>Americanas</item>
+    </string-array>
+    <string-array name="precos">
+        <item>real</item>
+        <item>real</item>
+        <item>real</item>
+        <item>real</item>
+        <item>real</item>
+    </string-array>
 </resources>

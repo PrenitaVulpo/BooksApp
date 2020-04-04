@@ -15,15 +15,32 @@
         android:theme="@style/AppTheme"
         android:usesCleartextTraffic="true"
         tools:ignore="AllowBackup,GoogleAppIndexingWarning">
-        <activity android:name=".ui.BookDetailActivity" android:parentActivityName=".ui.MainActivity"
-            android:label="@string/detail_title"></activity>
-        <activity android:name=".ui.MainActivity"
+        <activity
+            android:name=".ui.MainSearchActivity"
+            android:label="@string/title_activity_main_search"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".ui.BookDetailActivity"
+            android:label="@string/detail_title"
+            android:parentActivityName=".ui.MainActivity" />
+        <activity
+            android:name=".ui.MainActivity"
             android:launchMode="singleTop">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
+        </activity>
+        <activity
+            android:name=".ui.RetailerActivity"
+            android:launchMode="singleTop">
         </activity>
     </application>
 
