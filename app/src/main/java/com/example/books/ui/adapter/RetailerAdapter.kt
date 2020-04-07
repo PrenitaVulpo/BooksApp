@@ -1,73 +1,27 @@
 package com.example.books.ui.adapter
 
-import android.annotation.SuppressLint
-import android.content.Context
-import android.view.LayoutInflater
-import android.view.View
-import android.view.ViewGroup
-import android.widget.BaseAdapter
-import android.widget.TextView
-import androidx.recyclerview.widget.RecyclerView
-import com.example.books.R
-import com.example.books.model.Retailer
-import com.example.books.model.SearchResultRetailer
+import android.util.Log
+import androidx.fragment.app.Fragment
+import androidx.fragment.app.FragmentActivity
+import androidx.viewpager2.adapter.FragmentStateAdapter
+import com.example.books.model.Volume
+import com.example.books.ui.fragments.BookDetailFragment
+import com.example.books.ui.fragments.RetailerFragment
 
-class RetailerAdapter(context: Context, private val dataSource: SearchResultRetailer?): BaseAdapter() {
-
-    private val mContext: Context = context
+class RetailerAdapter(fa: FragmentActivity, val volume: Volume): FragmentStateAdapter(fa){
+    override fun getItemCount(): Int = 2
 
 
-    //override fun getItemCount(): Int = dataSource.items.size
+    override fun createFragment(position: Int): Fragment =
+        when (position) {
 
-
-    override fun getView(position: Int, convertView: View?, parent: ViewGroup): View {
-
-        // Get view for row item
-        val inflater = LayoutInflater.from(mContext)
-
-        val view: View
-        val holder: ViewHolder
-
-        if (convertView == null){
-            view = inflater.inflate(
-                R.layout.item_retailer,
-                parent,
-                false
-            )
-            holder = ViewHolder()
-            holder.retailerNameTextView = view.findViewById(R.id.retailerName) as TextView
-            holder.priceTextView = view.findViewById(R.id.price) as TextView
-
-            view.tag
-        } else {
-            view = convertView
-            holder = convertView.tag as ViewHolder
+            0 ->RetailerFragment(volume.id)
+            else -> {
+                Log.i("Teste", "Retailers called")
+                BookDetailFragment(volume)
+            }
         }
 
-        val retailerNameTextView = holder.retailerNameTextView
-        val priceTextView = holder.priceTextView
 
-        return view
-    }
-    private class ViewHolder {
-        lateinit var retailerNameTextView: TextView
-        lateinit var priceTextView: TextView
-    }
-
-    override fun getItem(position: Int): Any? {
-        return dataSource?.get(position)
-    }
-
-    override fun getCount(): Int {
-        if (dataSource != null) {
-            return dataSource.items.size
-        } else{
-            return 0
-        }
-    }
-
-    override fun getItemId(position: Int): Long {
-        return position.toLong()
-    }
 
 }

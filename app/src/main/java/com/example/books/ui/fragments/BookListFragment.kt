@@ -12,6 +12,7 @@ import androidx.recyclerview.widget.LinearLayoutManager
 import com.example.books.R
 import com.example.books.model.Volume
 import com.example.books.ui.BookDetailActivity
+import com.example.books.ui.RetailerActivity
 import com.example.books.ui.adapter.BookAdapter
 import com.example.books.ui.viewmodel.BookListViewModel
 import kotlinx.android.synthetic.main.fragment_book_list.*
@@ -65,6 +66,6 @@ class BookListFragment( s: String
         viewModel.loadBooks(book)
     }
     private fun onVolumeClick(volume: Volume){
-        BookDetailActivity.openWithVolume(requireContext(),volume)
+        RetailerActivity.openWithVolume(requireContext(),volume)
     }
 }

@@ -1370,6 +1370,16 @@ drawable ic_mtrl_chip_checked_black
 drawable ic_mtrl_chip_checked_circle
 drawable ic_mtrl_chip_close_circle
 drawable logo
+drawable logo_amazon
+drawable logo_livraria_cultura
+drawable logo_livrarias_curitiba
+drawable logo_magazine_luiza
+drawable logo_mercadolivre
+drawable logo_no_logo
+drawable logo_nobel
+drawable logo_novatec
+drawable logo_saraiva
+drawable logo_submarino
 drawable mtrl_dialog_background
 drawable mtrl_dropdown_arrow
 drawable mtrl_ic_arrow_drop_down
@@ -1557,9 +1567,10 @@ id line1
 id line3
 id linearLayout
 id linearLayout2
-id linearLayout3
+id linearLayout4
 id listMode
 id list_item
+id logo
 id masked
 id message
 id middle
@@ -1618,6 +1629,7 @@ id progressLayout
 id progress_circular
 id progress_horizontal
 id radio
+id retailerLayout
 id retailerListButton
 id retailerName
 id right
@@ -1721,6 +1733,7 @@ id useLogo
 id view_offset_helper
 id visible
 id visible_removing_fragment_view_tag
+id webView
 id withText
 id wrap
 id wrap_content
@@ -1803,8 +1816,10 @@ layout design_navigation_menu
 layout design_navigation_menu_item
 layout design_text_input_end_icon
 layout design_text_input_start_icon
+layout detail_swipe_view
 layout fragment_book_list
 layout fragment_book_price
+layout fragment_web_view
 layout item_book
 layout item_retailer
 layout layout_loading
@@ -1902,6 +1917,7 @@ string character_counter_pattern
 string chip_text
 string clear_text_end_icon_content_description
 string detail_title
+string detalhes
 string error_icon_content_description
 string error_load_book
 string exposed_dropdown_menu_content_description
@@ -1944,6 +1960,7 @@ string mtrl_picker_toggle_to_calendar_input_mode
 string mtrl_picker_toggle_to_day_selection
 string mtrl_picker_toggle_to_text_input_mode
 string mtrl_picker_toggle_to_year_selection
+string onde_comprar
 string password_toggle_content_description
 string path_password_eye
 string path_password_eye_mask_strike_through
@@ -1954,7 +1971,10 @@ string search_button
 string search_menu_title
 string status_bar_notification_info_overflow
 string tab_books
+string tab_details
 string tab_favorites
+string tab_retailers
+string tab_web
 string title_activity_main_search
 style AlertDialog_AppCompat
 style AlertDialog_AppCompat_Light

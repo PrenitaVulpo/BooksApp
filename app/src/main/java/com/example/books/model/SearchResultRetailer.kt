@@ -1,7 +1,7 @@
 package com.example.books.model
 
 class SearchResultRetailer(
-    val items: List<Retailer>
+    var items: List<Retailer>
 ) {
     operator fun get(i: Int): Any {
         return items[i]
@@ -15,4 +15,6 @@ class SearchResultRetailer(
     fun setPrice(i: Int, q: String){
         this.items[i].price = q
     }
+
+
 }

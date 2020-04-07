@@ -104,7 +104,7 @@ class BookDetailActivity : AppCompatActivity() {
             context.startActivity(intencao)
         }
     }
-    fun callWebService(s: String?): SearchResultRetailer {
+   /* fun callWebService(s: String?): SearchResultRetailer {
         lateinit var algo: SearchResultRetailer
         coroutineScope.launch {
             val retail = withContext(IO){
@@ -114,10 +114,10 @@ class BookDetailActivity : AppCompatActivity() {
                 algo = retail
             }
         }
-        return algo
+        return algo*/
     }
 
 
 
 
-}
+

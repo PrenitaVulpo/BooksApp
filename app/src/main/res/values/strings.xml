@@ -11,6 +11,11 @@
     <string name="botao_revendedores">Onde comprar?</string>
     <string name="biblioteca">Ir à Minha Biblioteca</string>
     <string name="previa">Ver Amostra</string>
+    <string name="detalhes">Detalhes</string>
+    <string name="onde_comprar">Onde Comprar?</string>
+    <string name="tab_details">Detalhes</string>
+    <string name="tab_retailers">Onde Comprar?</string>
+    <string name="tab_web">Prévia</string>
     <string-array name="example">
         <item>Novatec</item>
         <item>Amazon</item>

@@ -1,18 +1,23 @@
 package com.example.books.HTTP
 
 import android.util.Log
+import com.example.books.model.Retailer
 import com.example.books.model.SearchResultRetailer
 import com.google.gson.Gson
+import com.google.gson.reflect.TypeToken
 import okhttp3.OkHttpClient
 import okhttp3.Request
+import java.lang.reflect.Type
+import java.util.*
 import java.util.concurrent.TimeUnit
+import kotlin.collections.ArrayList
 
 
 object HTTPRetailer {
 
     //private val RETAIL_LINK: String = "https://books.google.com.br/books?id=$BOOK_ID&sitesec=buy&source=gbs_buy_r"
     //https://bookapiapp.herokuapp.com/resultpage?bookid=JEeMDwAAQBAJ
-
+    //private const val BOOK_JSON_URL = "https://www.googleapis.com/books/v1/volumes?q=%s&key=AIzaSyCCiu8UNvdVj5x1AUs8J05sr_66EToquas"
     private const val BOOK_JSON_URL = "https://bookapiapp.herokuapp.com/resultpage?bookid=%s"
     private val client = OkHttpClient.Builder()
         .readTimeout(10, TimeUnit.SECONDS)
@@ -27,13 +32,12 @@ object HTTPRetailer {
         try {
             val response = client.newCall(request).execute()
             val json = response.body?.string()
-            val result =
-                Gson().fromJson<SearchResultRetailer>(
+            Log.i("Teste", "$json")
+            val result: SearchResultRetailer? =
+                Gson().fromJson<SearchResultRetailer?>(
                     json, SearchResultRetailer::class.java
                 )
-            for (item in result.items){
-                Log.i("teste", item.retailerName)
-            }
+            Log.i("Teste", result?.items?.size.toString())
 
             return result
         } catch (e: Exception){
