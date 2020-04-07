@@ -15,10 +15,10 @@ class RetailerAdapter(fa: FragmentActivity, val volume: Volume): FragmentStateAd
     override fun createFragment(position: Int): Fragment =
         when (position) {
 
-            0 ->RetailerFragment(volume.id)
+            0 ->BookDetailFragment(volume)
             else -> {
                 Log.i("Teste", "Retailers called")
-                BookDetailFragment(volume)
+                RetailerFragment(volume.id)
             }
         }
 

@@ -25,6 +25,7 @@
         <activity
             android:name="com.example.books.ui.MainSearchActivity"
             android:label="@string/title_activity_main_search"
+            android:screenOrientation="portrait"
             android:theme="@style/AppTheme.NoActionBar" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -35,10 +36,12 @@
         <activity
             android:name="com.example.books.ui.BookDetailActivity"
             android:label="@string/detail_title"
-            android:parentActivityName="com.example.books.ui.MainActivity" />
+            android:parentActivityName="com.example.books.ui.MainActivity"
+            android:screenOrientation="portrait" />
         <activity
             android:name="com.example.books.ui.MainActivity"
-            android:launchMode="singleTop" >
+            android:launchMode="singleTop"
+            android:screenOrientation="portrait" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -47,7 +50,8 @@
         </activity>
         <activity
             android:name="com.example.books.ui.RetailerActivity"
-            android:launchMode="singleTop" >
+            android:launchMode="singleTop"
+            android:screenOrientation="portrait" >
         </activity>
         <activity
             android:name="com.daandtu.webscraper.MainTest"

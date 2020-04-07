@@ -11,6 +11,7 @@ import androidx.core.content.ContextCompat.startActivity
 import com.example.books.R
 import com.example.books.model.Volume
 import com.example.books.ui.adapter.RetailerAdapter
+import com.example.books.ui.adapter.RetailerListAdapter
 import com.example.books.ui.fragments.BookDetailFragment
 import com.google.android.material.tabs.TabLayoutMediator
 import kotlinx.android.synthetic.main.detail_swipe_view.*
@@ -35,7 +36,7 @@ class RetailerActivity: AppCompatActivity() {
                 when (position) {
 
                     0 -> R.string.tab_details
-                    else -> R.string.tab_web
+                    else -> R.string.tab_retailers
                 }
             )
 
@@ -67,6 +68,7 @@ class RetailerActivity: AppCompatActivity() {
             context.startActivity(intencao)
         }
     }
+
 
 
 

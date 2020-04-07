@@ -66,7 +66,7 @@ class BookDetailActivity : AppCompatActivity() {
             )
 
         }
-        retailerListButton.setOnClickListener{
+        /*retailerListButton.setOnClickListener{
             val id = volume?.id
             val browserIntent =
                 Intent(Intent.ACTION_VIEW, Uri.parse("https://books.google.com.br/books?id=$id&sitesec=buy&source=gbs_buy_r"))
@@ -77,7 +77,7 @@ class BookDetailActivity : AppCompatActivity() {
             }*/
             //intent.putExtras(bundle)
 
-        }
+        }*/
         buttonLeitura.setOnClickListener{
             val id = volume?.id
             val browserIntent =

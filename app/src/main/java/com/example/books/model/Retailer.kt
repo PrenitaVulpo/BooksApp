@@ -10,3 +10,4 @@ data class Retailer(
     var price: String
 ): Parcelable
 
+

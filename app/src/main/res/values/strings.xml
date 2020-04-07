@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">Books</string>
+    <string name="app_name">BookLooker</string>
     <string name="detail_title">Detalhes do livro</string>
     <string name="loading_text">Só um minuto...</string>
     <string name="error_load_book">Erro ao carregar o livro</string>

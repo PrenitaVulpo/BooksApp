@@ -1380,6 +1380,7 @@ drawable logo_nobel
 drawable logo_novatec
 drawable logo_saraiva
 drawable logo_submarino
+drawable logo_travessa
 drawable mtrl_dialog_background
 drawable mtrl_dropdown_arrow
 drawable mtrl_ic_arrow_drop_down
@@ -1630,7 +1631,6 @@ id progress_circular
 id progress_horizontal
 id radio
 id retailerLayout
-id retailerListButton
 id retailerName
 id right
 id right_icon

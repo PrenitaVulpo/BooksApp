@@ -1,6 +1,9 @@
 package com.example.books.ui.fragments
 
+import android.content.Intent
+import android.net.Uri
 import android.os.Bundle
+import android.util.Log
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
@@ -15,7 +18,7 @@ import com.example.books.ui.adapter.RetailerListAdapter
 import com.example.books.ui.viewmodel.RetailerViewModel
 import kotlinx.android.synthetic.main.fragment_book_price.*
 
-class RetailerFragment(val volumeID: String): Fragment() {
+class RetailerFragment(val volumeID: String): Fragment(), RetailerListAdapter.ItemClickListener {
     private val viewModel: RetailerViewModel by lazy {
         ViewModelProvider(this).get(RetailerViewModel::class.java)
     }
@@ -41,7 +44,7 @@ class RetailerFragment(val volumeID: String): Fragment() {
                 is RetailerViewModel.Estado.Carregado -> {
                     progressLayout.visibility = View.GONE
                     val retailerAdapter =
-                        RetailerListAdapter(estado.list)
+                        RetailerListAdapter(estado.list, this)
                     rvRetailer.layoutManager = LinearLayoutManager(requireContext())
                     rvRetailer.adapter = retailerAdapter
                 }
@@ -57,5 +60,18 @@ class RetailerFragment(val volumeID: String): Fragment() {
             }
         })
         viewModel.loadRetailer(volumeID)
+    }
+    override fun onItemClick(position: Int, link: String) {
+        Log.i("teste", "click regisrado")
+        val browserIntent =
+            Intent(Intent.ACTION_VIEW, Uri.parse(link))
+        startActivity(browserIntent)
+    }
+
+    override fun onLongClick(position: Int, link: String) {
+        Log.i("teste", "click regisrado")
+        val browserIntent =
+            Intent(Intent.ACTION_VIEW, Uri.parse(link))
+        startActivity(browserIntent)
     }
 }

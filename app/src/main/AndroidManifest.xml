@@ -18,7 +18,8 @@
         <activity
             android:name=".ui.MainSearchActivity"
             android:label="@string/title_activity_main_search"
-            android:theme="@style/AppTheme.NoActionBar">
+            android:theme="@style/AppTheme.NoActionBar"
+            android:screenOrientation="portrait" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -28,10 +29,12 @@
         <activity
             android:name=".ui.BookDetailActivity"
             android:label="@string/detail_title"
-            android:parentActivityName=".ui.MainActivity" />
+            android:parentActivityName=".ui.MainActivity"
+            android:screenOrientation="portrait" />
         <activity
             android:name=".ui.MainActivity"
-            android:launchMode="singleTop">
+            android:launchMode="singleTop"
+            android:screenOrientation="portrait" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -40,7 +43,8 @@
         </activity>
         <activity
             android:name=".ui.RetailerActivity"
-            android:launchMode="singleTop">
+            android:launchMode="singleTop"
+            android:screenOrientation="portrait" >
         </activity>
     </application>
 
